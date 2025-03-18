@@ -1,5 +1,63 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 1, 0);
+    flex-direction: column;
+}
+
+.card {
+    width: 187px;
+    height: 265px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 12px 12px rgb(248, 2, 2);
+    display: flex;
+    justify-content: center;
+}
+
+.top-left{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bottom-right {
+    display: flex;
+    flex-direction:row;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+#btn {
+    color: orangered; 
+    box-shadow: 0 12px 12px orangered;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.value, .suit {
+    font-size: 65px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
